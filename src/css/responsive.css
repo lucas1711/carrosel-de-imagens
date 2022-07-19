@@ -1,0 +1,141 @@
+
+@media(max-width: 1024px){
+    .imagens-slider .slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo{
+        margin-left: 0;
+        margin-bottom: 20px;
+        height: 500px;
+    }
+
+    .conteudo .titulo{
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+
+    .conteudo .texto{
+        font-size: 2rem;
+        margin-bottom: 80px;
+        
+    }
+
+    .conteudo .botao{
+        font-size: 2rem;
+    }
+
+}
+
+
+
+@media(max-width: 960px){
+    .imagens-slider .slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .conteudo .titulo{
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+
+    .conteudo .texto{
+        font-size: 1.5rem;
+        
+    }
+
+    .conteudo .botao{
+        font-size: 2rem;
+    }
+
+}
+
+
+
+@media(max-width: 768px){
+    .imagens-slider .slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo{
+        padding: 30px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        height: 80vh;
+    }
+
+    .conteudo .titulo{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .conteudo .texto{
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+        
+    }
+
+    .conteudo .botao{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:500px){
+    .conteudo{
+        height: 70vh;
+    }
+
+    .conteudo .titulo{
+        font-size: 1.rem;
+    }
+    .conteudo .texto{
+        font-size: 1rem;
+    }
+
+    .conteudo .botao{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media(max-width:425px){
+
+    .conteudo{
+        height: 70vh;
+    }
+
+    .conteudo .titulo{
+        font-size: 1.rem;
+    }
+    .conteudo .texto{
+        font-size: 1rem;
+    }
+
+    .conteudo .botao{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:375px){
+    .conteudo{
+        padding: 20px;
+    }
+    .conteudo .titulo{
+        font-size: 1.3rem;
+    }
+    .conteudo .texto{
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+}
